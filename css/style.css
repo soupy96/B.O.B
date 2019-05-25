@@ -1,0 +1,283 @@
+/*Starting to style*/
+
+body {
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+nav {
+	float: left;
+	background-color: #3152A2;
+	width: 100%;
+}
+
+li {
+	list-style: none;
+	display: inline;
+	padding-left: 1%;
+}
+
+td {
+	padding: 2%;
+}
+
+legend {
+	margin-left: 20%;
+}
+
+h1 {
+	float: left;
+	margin-top: 8%;
+	padding-left: 4%;
+}
+
+h2 {
+	text-align: center;
+	color: #3152A2;
+	font-size: 35px;
+	padding-bottom: 100px;
+}
+
+h3 {
+	margin-left: 10px;
+	margin-top: 80px;
+}
+
+h4 {
+	font-size: 40px;
+	margin-left: 500px;
+	margin-top: 70px;
+}
+
+h5 {
+	margin-left: 385px;
+	font-size: 15px;
+}
+
+h6 {
+	font-size: 20px;
+	margin-bottom: -35px;
+	margin-left: 600px;
+}
+
+p {
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.login {
+	float: right;
+	margin: 2%;
+	background-color: #3152A2;
+	padding: 1%;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 2px solid #223970;
+}
+
+.loginname {
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 30px;
+	margin: 2%;
+	padding: 1%;
+}
+
+.socialmedia {
+	float: right;
+	width: 175px;
+	margin-top: 10%;
+}
+
+.login a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	color: #ffffff;
+	padding: 1%;
+}
+
+.login a:hover {
+	text-decoration: none;
+}
+
+.loggedin a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	color: #000000;
+	padding: 1%;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: 1%;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav ul li a:link {
+	color: #ffffff;
+	border: 0px solid #000000;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+
+nav ul li a:hover {
+	background-color: #ffffff;
+	color: #3152A2;
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #cbf0ff;
+	padding-bottom: 50px;
+}
+
+.colour {
+	background-color: #F1EEE3; 
+}
+
+.header {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 250px;
+}
+
+.logo {
+	padding-left: 1%;
+	width: 250px;
+	float: left;
+	padding-right: 4%;
+	border-right: 2px black solid;
+}
+
+.icon {
+	float: left;
+	width: 50px;
+	padding: 1%;
+}
+
+.footer {
+	background-color: #F1EEE3;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	float: left;
+	width: 100%;
+}
+
+.copy {
+	padding-left: 2%;
+	margin-top: 50px;
+}
+
+.footerlogo {
+	width: 100px;
+	margin-left: 90%;
+	margin-top: -70px;
+}
+
+.mortgage {
+	background-color: #42525A; 
+	width: 33.33%;
+	float: left;
+	height: 500px;
+}
+
+.services {
+ 	background-color: #99A1A4; 
+ 	width: 33.33%;
+ 	float: left;
+ 	height: 500px;
+}
+
+.contact {
+	background-color: #42525A; 
+	width: 33.33%;
+	float: left;
+	height: 500px;
+}
+
+.links {
+	margin-left: 40%;
+}
+
+.rates {
+	margin-left: 42%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border: 0px solid #000000;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	background-color: #28AAE1;
+}
+
+.title {
+	margin-left: 35%;
+	margin-top: 5%;
+	font-size: 50px;
+}
+
+.box {
+	background-color: #3152A2;
+}
+
+.titletwo {
+	margin-left: 30%;
+	margin-top: 5%;
+	font-size: 50px;
+	margin-bottom: 2%;
+}
+
+.emailform {
+	margin-left: 450px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.contacticon {
+	float: right;
+	margin-right: 50px;
+	padding-bottom: 20px;
+}
+
+.ticket {
+	margin-left: -50px;
+}
+
+.even {
+	background-color: #3152A2;
+}
+
+.odd {
+	background-color: #cbf0ff;
+}
+
+.database {
+	width: 50%;
+	border: 1px solid #3152A2;
+	margin-left: 25%;
+}
+
+.view {
+	float: right;
+	margin-top: -50px;
+}
+
+.hereyouare {
+	font-family: Arial, Helvetica, sans-serif;
+	color: red;
+	padding-top:9%; 
+	margin-bottom: -5%;
+	float: left;
+}
